@@ -11,7 +11,7 @@ class CustomErrorPagesServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/views', 'custom_error_page');
 
         $this->publishes([
-            __DIR__ . '/views' => resource_path('views/vendor/custom_error_page'),
+            __DIR__ . '/views' => resource_path('views/errors'),
         ]);
     }
 }
