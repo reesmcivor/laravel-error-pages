@@ -1,0 +1,19 @@
+{
+    "name": "reesmcivor/laravel-error-pages",
+    "description": "Custom error pages",
+    "autoload": {
+        "psr-4": {
+            "Reesmcivor\\LaravelErrorPages\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "reesmcivor",
+            "email": "reesmcivor@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0"
+    }
+}
