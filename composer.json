@@ -3,7 +3,7 @@
     "description": "Custom error pages",
     "autoload": {
         "psr-4": {
-            "Reesmcivor\\LaravelErrorPages\\": "src/"
+            "ReesMcIvor\\LaravelErrorPages\\": "src/"
         }
     },
     "authors": [
@@ -15,5 +15,12 @@
     "require": {
         "php": "^8.1",
         "illuminate/support": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ReesMcIvor\\LaravelErrorPages\\CustomErrorPageServiceProvider"
+            ]
+        }
     }
 }

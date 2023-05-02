@@ -1,10 +1,10 @@
 <?php
 
-namespace YourNamespace\CustomErrorPage;
+namespace ReesMcIvor\CustomErrorPage;
 
 use Illuminate\Support\ServiceProvider;
 
-class CustomErrorPageServiceProvider extends ServiceProvider
+class CustomErrorPagesServiceProvider extends ServiceProvider
 {
     public function boot()
     {
