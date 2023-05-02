@@ -22,7 +22,7 @@
                 "ReesMcIvor\\LaravelErrorPages\\CustomErrorPagesServiceProvider"
             ],
             "config": {
-                "config-file-name": "src/config/custom_error_pages.php"
+                "laravel-error-pages": "src/config/laravel-error-pages.php"
             }
         }
     }
