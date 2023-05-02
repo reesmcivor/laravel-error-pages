@@ -1,6 +1,6 @@
 <?php
 
-namespace ReesMcIvor\CustomErrorPage;
+namespace ReesMcIvor\LaravelErrorPages;
 
 use Illuminate\Support\ServiceProvider;
 
