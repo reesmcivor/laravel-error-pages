@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ReesMcIvor\\LaravelErrorPages\\CustomErrorPageServiceProvider"
+                "ReesMcIvor\\LaravelErrorPages\\CustomErrorPagesServiceProvider"
             ]
         }
     }
