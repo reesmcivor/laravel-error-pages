@@ -12,8 +12,6 @@ class CustomErrorPagesServiceProvider extends ServiceProvider
 
         $this->loadViewsFrom(__DIR__ . '/views', 'custom_error_page');
 
-        $this->loadConfigFrom(__DIR__ . '/config/custom_error_pages.php');
-
         $this->publishes([
             __DIR__ . '/views' => resource_path('views'),
         ]);

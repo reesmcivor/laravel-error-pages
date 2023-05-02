@@ -20,7 +20,10 @@
         "laravel": {
             "providers": [
                 "ReesMcIvor\\LaravelErrorPages\\CustomErrorPagesServiceProvider"
-            ]
+            ],
+            "config": {
+                "config-file-name": "src/config/custom_error_pages.php"
+            }
         }
     }
 }
